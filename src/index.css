@@ -1,0 +1,10 @@
+* { box-sizing: border-box; }
+html, body, #root { margin: 0; min-height: 100%; width: 100%; }
+body { min-height: 100vh; background: #f6f4ef; }
+button, input, select, textarea { font: inherit; }
+input, select, textarea { border: 1px solid #dfe3e8; border-radius: 8px; padding: 9px 11px; outline: none; }
+input:focus, select:focus, textarea:focus { border-color: #24364b; box-shadow: 0 0 0 3px rgba(36,54,75,.08); }
+button { -webkit-tap-highlight-color: transparent; }
+@media (max-width: 760px) {
+  body { overflow-x: hidden; }
+}
